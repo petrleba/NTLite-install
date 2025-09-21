@@ -1,0 +1,2 @@
+# NTLite-install
+Instalace OptiPlex
