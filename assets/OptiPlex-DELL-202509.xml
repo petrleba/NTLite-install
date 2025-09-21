@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>09/20/2025 22:03:27</Date>
+	<AppInfo>
+		<Version>2025.8.10552</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 11 Professional 24H2 x64 - 10.0.26100.6584 (cs-CZ)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 11 Enterprise 24H2 x64 - 10.0.26100.6584 (cs-CZ)</Version>
+		<GUID>{AA989C90-A04F-44E2-A51E-006D983A017D}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM">
+		<c>asimov 'Klient telemetrie'</c>
+	</RemoveComponents>
+	<Compatibility protectHidden="true">
+		<ComponentFeatures>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="yes">EAC</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features>
+		<Feature name="NetFX3~~~~">true</Feature>
+	</Features>
+	<Packages>
+		<Options>
+			<CleanHotfixedLeftovers>1</CleanHotfixedLeftovers>
+			<OptimizeAppX>false</OptimizeAppX>
+			<UpdateBootManager>false</UpdateBootManager>
+		</Options>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5064097-x64_28d59d08562e574b336ca9523f6e2e0fc965687e.cab</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5066990-x64_f3735c81e09f4bb4499b08d498d6ef56788ce1e8.cab</File>
+	</Packages>
+	<Commands>
+		<PostUpdates>
+			<!--<Command>cmd /c echo Example from [MOUNTDIR]\Windows &amp; pause</Command>-->
+			<!--<Command>dism /image:[MOUNTDIR] /get-intl</Command>-->
+		</PostUpdates>
+	</Commands>
+	<Drivers>
+		<Options>
+			<ReuseDriverCache>false</ReuseDriverCache>
+			<ShowHidden>true</ShowHidden>
+		</Options>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\AlderLakeDmaSecExtension.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\AlderLakePCH-NDmaSecExtension.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\AlderLakePCH-NSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\AlderLakePCH-NSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\AlderLakePCH-PDmaSecExtension.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\AlderLakePCH-PSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\AlderLakePCH-PSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\AlderLakePCH-PSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\AlderLakePCH-SSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\AlderLakePCH-SSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\AlderLakePCH-SSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\AlderLakeSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\AlderLakeSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\ApolloLakeSDHost.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\ApolloLakeSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CannonLake-HSDHost.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CannonLake-HSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CannonLake-HSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CannonLake-HSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CannonLake-HSystemThermal.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CannonLake-LPSDHost.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CannonLake-LPSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CannonLake-LPSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CannonLake-LPSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CannonLake-LPSystemThermal.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CoffeelakeSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CometLakePCH-HSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CometLakePCH-HSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CometLakePCH-HSystemThermal.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CometLakePCH-LPDmaSecExtension.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CometLakePCH-LPSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CometLakePCH-LPSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CometLakePCH-LPSystemThermal.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CometLakePCH-VSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CometLakePCH-VSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CometLakePCH-VSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CometLakePCH-VSystemThermal.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\CometLakeSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\ElkhartLakeSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\ElkhartLakeSystemGMM.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\ElkhartLakeSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\EmmitsburgSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\EmmitsburgSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\GeminilakeSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\GeminilakeSystemGMM.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\GeminilakeSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\GeminilakeSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\GraniteRapidsSystem.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\GSCAuxDriver.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\gscheci.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\IceLakePCH-LPSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\IceLakePCH-LPSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\IceLakePCH-LPSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\IceLakePCH-NSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\IceLakePCH-NSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\IceLakeSystemThermal.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\IceLakeUSBFunctionController.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\JasperLake+System.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\JasperLake+SystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\JasperLakePCH-NSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\JasperLakePCH-NSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\JasperLakePCH-NSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\KabyLakePCH-HSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\KabyLakePCH-HSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\KabyLakePCH-HSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\KabyLakePCH-HSystemThermal.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\KabylakeSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\KabylakeSystemGMM.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\LakeFieldSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\LakeFieldSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\LakeFieldSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\LunarLakeSystem.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\memcntrl.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\MeteorLakePCH-SSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\MeteorLakeSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\MeteorLakeSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-BE2xx-AX4xx-AX2xx-9xxx-Wi-Fi-Driver_3GN29_WIN64_23.110.0.5_A49_05\Production\Windows10-x64\0\Drivers\Drivers\Netwtw08.INF</File>
+		<File>C:\temp\DELL\Intel-BE2xx-AX4xx-AX2xx-9xxx-Wi-Fi-Driver_3GN29_WIN64_23.110.0.5_A49_05\Production\Windows10-x64\0\Drivers\Drivers\Netwtw6e.INF</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\RaptorLakePCH-SSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\RaptorLakeSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\RocketLakeSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\SapphireRapidsSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\Server_CommonSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\Server_CommonSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\SkylakeSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\SkylakeSystemGMM.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\SkylakeSystemThermal.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\SunrisePoint-HSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\SunrisePoint-HSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\SunrisePoint-HSystemThermal.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\SunrisePoint-LPSDHost.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\SunrisePoint-LPSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\SunrisePoint-LPSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\SunrisePoint-LPSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\SunrisePoint-LPSystemThermal.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\TigerlakeDmaSecExtension.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\TigerLakePCH-HDmaSecExtension.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\TigerLakePCH-HSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\TigerLakePCH-HSystemISH.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\TigerLakePCH-HSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\TigerLakePCH-HSystemNorthpeak.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\TigerLakePCH-HSystemThermal.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\TigerlakePCH-LPDmaSecExtension.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\TigerlakePCH-LPSystem.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\TigerlakePCH-LPSystemLPSS.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\TigerlakePCH-LPUSBFunctionController.inf</File>
+		<File>C:\temp\DELL\Intel-Chipset-Device-Software_K1T72_WIN64_10.1.19949.8616_A01\0\Drivers\production\Windows10-x64\TigerlakeSystem.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\CtaChildDriver\CtaChildDriver.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\cui_dch.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\HdBusExt.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\igcc_dch.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\iigd_dch.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\iigd_ext.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\I2CDriver\Intel_NF_I2C_Child.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\MiniCtaDriver\MiniCtaDriver.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\MSHdaDac.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\PmtChildDriver\PmtChildDriver.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\DisplayAudio\11.2\IntcDAud.inf</File>
+		<File>C:\temp\DELL\Intel-UHD-Graphics-Driver-and-Intel-Graphics-Command_GT99N_WIN64_32.0.101.6556_A00 (1)\0\Drivers\GT99N\Graphics\DisplayAudio\12.1\IntcDAud.inf</File>
+	</Drivers>
+	<Unattended mode="1">
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>true</SaveBothArch>
+		<EditionPrompt>false</EditionPrompt>
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-International-Core">
+				<InputLocale>cs-CZ;en-US</InputLocale>
+				<SystemLocale>cs-CZ</SystemLocale>
+				<UILanguage>cs-CZ</UILanguage>
+				<UILanguageFallback>cs-CZ</UILanguageFallback>
+				<UserLocale>cs-CZ</UserLocale>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<TimeZone>Střední Evropa (běžný čas)</TimeZone>
+				<OOBE>
+					<HideEULAPage>true</HideEULAPage>
+					<HideLocalAccountScreen>true</HideLocalAccountScreen>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<NetworkLocation>Work</NetworkLocation>
+					<ProtectYourPC>3</ProtectYourPC>
+					<SkipMachineOOBE>true</SkipMachineOOBE>
+					<SkipUserOOBE>true</SkipUserOOBE>
+				</OOBE>
+				<UserAccounts>
+					<LocalAccounts>
+						<LocalAccount>
+							<DisplayName>Local admin</DisplayName>
+							<Group>Administrators</Group>
+							<Name>admin</Name>
+							<Password>
+								<PlainText>false</PlainText>
+								<Value>dABKAHQAUwBtAE4AcAAxADAAMAAuAFAAYQBzAHMAdwBvAHIAZAA=</Value>
+							</Password>
+						</LocalAccount>
+						<LocalAccount>
+							<DisplayName>Student</DisplayName>
+							<Group>Users</Group>
+							<Name>student</Name>
+							<Password>
+								<PlainText>true</PlainText>
+								<Value></Value>
+							</Password>
+						</LocalAccount>
+					</LocalAccounts>
+				</UserAccounts>
+			</component>
+		</settings>
+		<settings pass="specialize">
+			<component name="Microsoft-Windows-Security-SPP-UX">
+				<SkipAutoActivation>true</SkipAutoActivation>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<ComputerName>B9-PII-%SERIAL%</ComputerName>
+				<ProductKey>92TG2-N6TBB-Q4HQP-CF76Q-T6PJR</ProductKey>
+				<RegisteredOrganization>Střední odborné učiliště elektrotechnické Plzeň</RegisteredOrganization>
+				<RegisteredOwner>Střední odborné učiliště elektrotechnické Plzeň</RegisteredOwner>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-International-Core-WinPE">
+				<InputLocale>0405:00000405</InputLocale>
+				<SystemLocale>cs-CZ</SystemLocale>
+				<UILanguage>cs-CZ</UILanguage>
+				<UILanguageFallback>cs-CZ</UILanguageFallback>
+				<UserLocale>cs-CZ</UserLocale>
+				<SetupUILanguage>
+					<UILanguage>cs-CZ</UILanguage>
+				</SetupUILanguage>
+			</component>
+			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>false</OptIn>
+				</Diagnostics>
+				<DiskConfiguration>
+					<WillShowUI>OnError</WillShowUI>
+					<Disk>
+						<DiskID>0</DiskID>
+						<GPTDisk>true</GPTDisk>
+						<WillWipeDisk>true</WillWipeDisk>
+						<CreatePartitions>
+							<CreatePartition>
+								<Order>1</Order>
+								<Size>260</Size>
+								<Type>EFI</Type>
+							</CreatePartition>
+							<CreatePartition>
+								<Order>2</Order>
+								<Size>16</Size>
+								<Type>MSR</Type>
+							</CreatePartition>
+							<CreatePartition>
+								<Order>3</Order>
+								<Size>150000</Size>
+								<Type>Primary</Type>
+							</CreatePartition>
+							<CreatePartition>
+								<Order>4</Order>
+								<Size>700</Size>
+								<Type>Primary</Type>
+							</CreatePartition>
+							<CreatePartition>
+								<Extend>true</Extend>
+								<Order>5</Order>
+								<Type>Primary</Type>
+							</CreatePartition>
+						</CreatePartitions>
+						<ModifyPartitions>
+							<ModifyPartition>
+								<Format>FAT32</Format>
+								<Order>1</Order>
+								<PartitionID>1</PartitionID>
+							</ModifyPartition>
+							<ModifyPartition>
+								<Order>2</Order>
+								<PartitionID>2</PartitionID>
+							</ModifyPartition>
+							<ModifyPartition>
+								<Format>NTFS</Format>
+								<InstallTo>true</InstallTo>
+								<Order>3</Order>
+								<PartitionID>3</PartitionID>
+							</ModifyPartition>
+							<ModifyPartition>
+								<Format>NTFS</Format>
+								<Order>4</Order>
+								<PartitionID>4</PartitionID>
+								<TypeID>de94bba4-06d1-4d40-a16a-bfd50179d6ac</TypeID>
+							</ModifyPartition>
+							<ModifyPartition>
+								<Format>NTFS</Format>
+								<Label>DATA</Label>
+								<Order>5</Order>
+								<PartitionID>5</PartitionID>
+							</ModifyPartition>
+						</ModifyPartitions>
+					</Disk>
+				</DiskConfiguration>
+				<DynamicUpdate>
+					<Enable>false</Enable>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/INDEX</Key>
+								<Value>1</Value>
+							</MetaData>
+						</InstallFrom>
+						<InstallTo>
+							<DiskID>0</DiskID>
+							<PartitionID>3</PartitionID>
+						</InstallTo>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<AcceptEula>true</AcceptEula>
+					<FullName>B9-PII-B%SERIAL%</FullName>
+					<ProductKey>
+						<Key>92TG2-N6TBB-Q4HQP-CF76Q-T6PJR</Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings></Settings>
+		<Services></Services>
+		<ExtraServices></ExtraServices>
+		<ScheduledTasks></ScheduledTasks>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>imageFormatWim</Task>
+			<Task>updates_Winre.wim_01__64</Task>
+			<Task>msix_Winre.wim_01__64</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\temp\NTLite.iso</AutoIsoFile>
+		<AutoIsoLabel>Windows11Ent20250920</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+	</ApplyOptions>
+	<Execution BeforeLogonMode="0">
+		<Remove></Remove>
+		<Change></Change>
+		<Add></Add>
+	</Execution>
+	<Registry>
+		<File>J:\nastaveni-pc-ucebna-ver2.reg</File>
+		<PowerScheme type="3" guid="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c" activate="true"></PowerScheme>
+	</Registry>
+</Preset>

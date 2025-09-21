@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>09/21/2025 03:10:08</Date>
+	<AppInfo>
+		<Version>2025.8.10552</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 11 Professional 24H2 x64 - 10.0.26100.6584 (cs-CZ)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 11 Enterprise 24H2 x64 - 10.0.26100.6584 (cs-CZ)</Version>
+		<GUID>{1D02243F-B66E-472F-9306-4C395865C301}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM"></RemoveComponents>
+	<Compatibility protectHidden="true">
+		<ComponentFeatures>
+			<Feature enabled="yes">Activation</Feature>
+			<Feature enabled="no">AppGuard</Feature>
+			<Feature enabled="yes">Battle.net</Feature>
+			<Feature enabled="no">YubiKey</Feature>
+			<Feature enabled="no">Bluetooth</Feature>
+			<Feature enabled="no">CapFrameX</Feature>
+			<Feature enabled="yes">Discord</Feature>
+			<Feature enabled="no">Docker</Feature>
+			<Feature enabled="yes">Recommended-All</Feature>
+			<Feature enabled="yes">EAC</Feature>
+			<Feature enabled="yes">ShellSearchSupport</Feature>
+			<Feature enabled="no">Hyper-V</Feature>
+			<Feature enabled="no">iCloud</Feature>
+			<Feature enabled="yes">WinSetup</Feature>
+			<Feature enabled="yes">USBCamera</Feature>
+			<Feature enabled="no">Kaspersky</Feature>
+			<Feature enabled="yes">SFC</Feature>
+			<Feature enabled="yes">OfficeSupport</Feature>
+			<Feature enabled="yes">Netflix</Feature>
+			<Feature enabled="yes">NightLight</Feature>
+			<Feature enabled="yes">NvidiaSetup</Feature>
+			<Feature enabled="no">SafeMode</Feature>
+			<Feature enabled="yes">OOBE</Feature>
+			<Feature enabled="yes">AppxSupport</Feature>
+			<Feature enabled="yes">FileSharing</Feature>
+			<Feature enabled="no">VPN</Feature>
+			<Feature enabled="yes">VideoPlayback</Feature>
+			<Feature enabled="no">SamsungSwitch</Feature>
+			<Feature enabled="yes">Scanning</Feature>
+			<Feature enabled="yes">Spotify</Feature>
+			<Feature enabled="no">VSS</Feature>
+			<Feature enabled="yes">DefaultFonts</Feature>
+			<Feature enabled="yes">TeamViewer</Feature>
+			<Feature enabled="yes">Printing</Feature>
+			<Feature enabled="yes">HostRefresh</Feature>
+			<Feature enabled="no">USBModem</Feature>
+			<Feature enabled="yes">USB</Feature>
+			<Feature enabled="yes">VisualStudio</Feature>
+			<Feature enabled="no">RDPServer</Feature>
+			<Feature enabled="no">SnippingTool</Feature>
+			<Feature enabled="yes">WindowsStore</Feature>
+			<Feature enabled="yes">WindowsUpdate</Feature>
+			<Feature enabled="yes">WLAN</Feature>
+			<Feature enabled="no">Recommended-Tablet</Feature>
+			<Feature enabled="no">NetworkDiscovery</Feature>
+			<Feature enabled="yes">ServicingStack</Feature>
+		</ComponentFeatures>
+		<MachineDrivers>
+			<Machine enabled="yes">HostMachine</Machine>
+			<Machine enabled="no">Hyper-V VM</Machine>
+			<Machine enabled="no">Parallels VM</Machine>
+			<Machine enabled="no">Virtual Box VM</Machine>
+			<Machine enabled="no">VMware VM</Machine>
+		</MachineDrivers>
+	</Compatibility>
+	<Features>
+		<Feature name="NetFX3~~~~">true</Feature>
+	</Features>
+	<Packages>
+		<Options>
+			<CleanHotfixedLeftovers>1</CleanHotfixedLeftovers>
+			<OptimizeAppX>false</OptimizeAppX>
+			<UpdateBootManager>false</UpdateBootManager>
+		</Options>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5064097-x64_28d59d08562e574b336ca9523f6e2e0fc965687e.cab</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5065426-x64_32b5f85e0f4f08e5d6eabec6586014a02d3b6224.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5066990-x64_f3735c81e09f4bb4499b08d498d6ef56788ce1e8.cab</File>
+	</Packages>
+	<Commands>
+		<PostUpdates>
+			<!--<Command>cmd /c echo Example from [MOUNTDIR]\Windows &amp; pause</Command>-->
+			<!--<Command>dism /image:[MOUNTDIR] /get-intl</Command>-->
+		</PostUpdates>
+	</Commands>
+	<Drivers>
+		<Options>
+			<ReuseDriverCache>false</ReuseDriverCache>
+			<ShowHidden>true</ShowHidden>
+		</Options>
+	</Drivers>
+	<Unattended mode="1">
+		<AnswerFileLocationPanther>false</AnswerFileLocationPanther>
+		<AnswerFileLocationBoot>false</AnswerFileLocationBoot>
+		<SaveBothArch>true</SaveBothArch>
+		<EditionPrompt>false</EditionPrompt>
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-International-Core">
+				<InputLocale>cs-CZ;en-US</InputLocale>
+				<SystemLocale>cs-CZ</SystemLocale>
+				<UILanguage>cs-CZ</UILanguage>
+				<UILanguageFallback>cs-CZ</UILanguageFallback>
+				<UserLocale>cs-CZ</UserLocale>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<TimeZone>Střední Evropa (běžný čas)</TimeZone>
+				<OOBE>
+					<HideEULAPage>true</HideEULAPage>
+					<HideLocalAccountScreen>true</HideLocalAccountScreen>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<NetworkLocation>Work</NetworkLocation>
+					<ProtectYourPC>3</ProtectYourPC>
+					<SkipMachineOOBE>true</SkipMachineOOBE>
+					<SkipUserOOBE>true</SkipUserOOBE>
+				</OOBE>
+				<UserAccounts>
+					<LocalAccounts>
+						<LocalAccount>
+							<DisplayName>Local admin</DisplayName>
+							<Group>Administrators</Group>
+							<Name>admin</Name>
+							<Password>
+								<PlainText>false</PlainText>
+								<Value>dABKAHQAUwBtAE4AcAAxADAAMAAuAFAAYQBzAHMAdwBvAHIAZAA=</Value>
+							</Password>
+						</LocalAccount>
+						<LocalAccount>
+							<DisplayName>Student</DisplayName>
+							<Group>Users</Group>
+							<Name>student</Name>
+							<Password>
+								<PlainText>true</PlainText>
+								<Value></Value>
+							</Password>
+						</LocalAccount>
+					</LocalAccounts>
+				</UserAccounts>
+			</component>
+		</settings>
+		<settings pass="specialize">
+			<component name="Microsoft-Windows-Security-SPP-UX">
+				<SkipAutoActivation>true</SkipAutoActivation>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<ComputerName>B9-PII-%SERIAL%</ComputerName>
+				<ProductKey>92TG2-N6TBB-Q4HQP-CF76Q-T6PJR</ProductKey>
+				<RegisteredOrganization>Střední odborné učiliště elektrotechnické Plzeň</RegisteredOrganization>
+				<RegisteredOwner>Střední odborné učiliště elektrotechnické Plzeň</RegisteredOwner>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-International-Core-WinPE">
+				<InputLocale>cs-CZ;en-US</InputLocale>
+				<SystemLocale>cs-CZ</SystemLocale>
+				<UILanguage>cs-CZ</UILanguage>
+				<UILanguageFallback>cs-CZ</UILanguageFallback>
+				<UserLocale>cs-CZ</UserLocale>
+				<SetupUILanguage>
+					<UILanguage>cs-CZ</UILanguage>
+				</SetupUILanguage>
+			</component>
+			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>false</OptIn>
+				</Diagnostics>
+				<DiskConfiguration>
+					<WillShowUI>OnError</WillShowUI>
+					<Disk>
+						<DiskID>0</DiskID>
+						<GPTDisk>true</GPTDisk>
+						<WillWipeDisk>true</WillWipeDisk>
+						<CreatePartitions>
+							<CreatePartition>
+								<Order>1</Order>
+								<Size>260</Size>
+								<Type>EFI</Type>
+							</CreatePartition>
+							<CreatePartition>
+								<Order>2</Order>
+								<Size>16</Size>
+								<Type>MSR</Type>
+							</CreatePartition>
+							<CreatePartition>
+								<Order>3</Order>
+								<Size>150000</Size>
+								<Type>Primary</Type>
+							</CreatePartition>
+							<CreatePartition>
+								<Order>4</Order>
+								<Size>700</Size>
+								<Type>Primary</Type>
+							</CreatePartition>
+							<CreatePartition>
+								<Extend>true</Extend>
+								<Order>5</Order>
+								<Type>Primary</Type>
+							</CreatePartition>
+						</CreatePartitions>
+						<ModifyPartitions>
+							<ModifyPartition>
+								<Format>FAT32</Format>
+								<Order>1</Order>
+								<PartitionID>1</PartitionID>
+							</ModifyPartition>
+							<ModifyPartition>
+								<Order>2</Order>
+								<PartitionID>2</PartitionID>
+							</ModifyPartition>
+							<ModifyPartition>
+								<Format>NTFS</Format>
+								<InstallTo>true</InstallTo>
+								<Order>3</Order>
+								<PartitionID>3</PartitionID>
+							</ModifyPartition>
+							<ModifyPartition>
+								<Format>NTFS</Format>
+								<Order>4</Order>
+								<PartitionID>4</PartitionID>
+								<TypeID>de94bba4-06d1-4d40-a16a-bfd50179d6ac</TypeID>
+							</ModifyPartition>
+							<ModifyPartition>
+								<Format>NTFS</Format>
+								<Label>DATA</Label>
+								<Order>5</Order>
+								<PartitionID>5</PartitionID>
+							</ModifyPartition>
+						</ModifyPartitions>
+					</Disk>
+				</DiskConfiguration>
+				<DynamicUpdate>
+					<Enable>false</Enable>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<WillShowUI>OnError</WillShowUI>
+						<InstallFrom>
+							<MetaData>
+								<Key>/IMAGE/INDEX</Key>
+								<Value>1</Value>
+							</MetaData>
+						</InstallFrom>
+						<InstallTo>
+							<DiskID>0</DiskID>
+							<PartitionID>3</PartitionID>
+						</InstallTo>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<AcceptEula>true</AcceptEula>
+					<FullName>B9-PII-B%SERIAL%</FullName>
+					<ProductKey>
+						<Key>92TG2-N6TBB-Q4HQP-CF76Q-T6PJR</Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings></Settings>
+		<Services></Services>
+		<ExtraServices></ExtraServices>
+		<ScheduledTasks></ScheduledTasks>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>imageFormatWim</Task>
+			<Task>updates_Winre.wim_01__64</Task>
+			<Task>msix_Winre.wim_01__64</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\temp\NTLite.iso</AutoIsoFile>
+		<AutoIsoLabel>Windows11Ent20250920</AutoIsoLabel>
+		<AutoSplitSize>4000</AutoSplitSize>
+	</ApplyOptions>
+	<Execution BeforeLogonMode="0">
+		<Remove></Remove>
+		<Change>
+			<Item type="19">
+				<Path>CD</Path>
+				<Params>"%TEMP%"&amp;CLS&amp;@TITLE</Params>
+				<Index>10</Index>
+				<PathOriginal>CD</PathOriginal>
+				<IndexOriginal>0</IndexOriginal>
+				<ParamsOriginal>"%TEMP%"&amp;CLS&amp;@TITLE</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>C:\Windows\Setup\Scripts\OfficeSetup\setup.exe</Path>
+				<Params>/configure C:\Windows\Setup\Scripts\OfficeSetup\configuration.xml</Params>
+				<Index>11</Index>
+				<PathOriginal>C:\Windows\Setup\Scripts\OfficeSetup\setup.exe</PathOriginal>
+				<IndexOriginal>1</IndexOriginal>
+				<ParamsOriginal>/configure C:\Windows\Setup\Scripts\OfficeSetup\configuration.xml</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\7z.exe"</Path>
+				<Params>/S</Params>
+				<Index>12</Index>
+				<PathOriginal>"%~dp0installers\7z.exe"</PathOriginal>
+				<IndexOriginal>2</IndexOriginal>
+				<ParamsOriginal>/S</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\python.exe"</Path>
+				<Params>/quiet InstallAllUsers=1 PrependPath=1 Include_test=0</Params>
+				<Index>13</Index>
+				<PathOriginal>"%~dp0installers\python.exe"</PathOriginal>
+				<IndexOriginal>3</IndexOriginal>
+				<ParamsOriginal>/quiet InstallAllUsers=1 PrependPath=1 Include_test=0</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\VSCodeSetup.exe"</Path>
+				<Params>/verysilent /mergetasks="!runcode,addtopath,addcontextmenufiles,addcontextmenufolders"</Params>
+				<Index>14</Index>
+				<PathOriginal>"%~dp0installers\VSCodeSetup.exe"</PathOriginal>
+				<IndexOriginal>4</IndexOriginal>
+				<ParamsOriginal>/verysilent /mergetasks="!runcode,addtopath,addcontextmenufiles,addcontextmenufolders"</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\pspad.exe"</Path>
+				<Params>/VERYSILENT /NORESTART /TASKS="contextmenu,icons,txt"</Params>
+				<Index>15</Index>
+				<PathOriginal>"%~dp0installers\pspad.exe"</PathOriginal>
+				<IndexOriginal>5</IndexOriginal>
+				<ParamsOriginal>/VERYSILENT /NORESTART /TASKS="contextmenu,icons,txt"</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\stduviewer.exe"</Path>
+				<Params>/VERYSILENT /NORESTART /TASKS="fileassoc"</Params>
+				<Index>16</Index>
+				<PathOriginal>"%~dp0installers\stduviewer.exe"</PathOriginal>
+				<IndexOriginal>6</IndexOriginal>
+				<ParamsOriginal>/VERYSILENT /NORESTART /TASKS="fileassoc"</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\audacity.exe"</Path>
+				<Params>/VERYSILENT /LANG=cs /TASKS="!desktopicon" /NORESTART</Params>
+				<Index>17</Index>
+				<PathOriginal>"%~dp0installers\audacity.exe"</PathOriginal>
+				<IndexOriginal>7</IndexOriginal>
+				<ParamsOriginal>/VERYSILENT /LANG=cs /TASKS="!desktopicon" /NORESTART</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>msiexec</Path>
+				<Params>/i "%~dp0installers\googlechrome.msi" /qn</Params>
+				<Index>18</Index>
+				<PathOriginal>msiexec</PathOriginal>
+				<IndexOriginal>8</IndexOriginal>
+				<ParamsOriginal>/i "%~dp0installers\googlechrome.msi" /qn</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\gimp.exe"</Path>
+				<Params>/VERYSILENT /NORESTART /LANG=cs /MERGETASKS="!desktopicon,associations"</Params>
+				<Index>19</Index>
+				<PathOriginal>"%~dp0installers\gimp.exe"</PathOriginal>
+				<IndexOriginal>9</IndexOriginal>
+				<ParamsOriginal>/VERYSILENT /NORESTART /LANG=cs /MERGETASKS="!desktopicon,associations"</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>msiexec</Path>
+				<Params>/i "%~dp0installers\inkscape.msi" /qn ADDLOCAL=ALL LAUNCHCHECK=0</Params>
+				<Index>20</Index>
+				<PathOriginal>msiexec</PathOriginal>
+				<IndexOriginal>10</IndexOriginal>
+				<ParamsOriginal>/i "%~dp0installers\inkscape.msi" /qn ADDLOCAL=ALL LAUNCHCHECK=0</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>CD</Path>
+				<Params>"%TEMP%"&amp;CLS&amp;@TITLE</Params>
+				<Index>21</Index>
+				<PathOriginal>CD</PathOriginal>
+				<IndexOriginal>11</IndexOriginal>
+				<ParamsOriginal>"%TEMP%"&amp;CLS&amp;@TITLE</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>C:\Windows\Setup\Scripts\OfficeSetup\setup.exe</Path>
+				<Params>/configure C:\Windows\Setup\Scripts\OfficeSetup\configuration.xml</Params>
+				<Index>22</Index>
+				<PathOriginal>C:\Windows\Setup\Scripts\OfficeSetup\setup.exe</PathOriginal>
+				<IndexOriginal>12</IndexOriginal>
+				<ParamsOriginal>/configure C:\Windows\Setup\Scripts\OfficeSetup\configuration.xml</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\7z.exe"</Path>
+				<Params>/S</Params>
+				<Index>23</Index>
+				<PathOriginal>"%~dp0installers\7z.exe"</PathOriginal>
+				<IndexOriginal>13</IndexOriginal>
+				<ParamsOriginal>/S</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\python.exe"</Path>
+				<Params>/quiet InstallAllUsers=1 PrependPath=1 Include_test=0</Params>
+				<Index>24</Index>
+				<PathOriginal>"%~dp0installers\python.exe"</PathOriginal>
+				<IndexOriginal>14</IndexOriginal>
+				<ParamsOriginal>/quiet InstallAllUsers=1 PrependPath=1 Include_test=0</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\VSCodeSetup.exe"</Path>
+				<Params>/verysilent /mergetasks="!runcode,addtopath,addcontextmenufiles,addcontextmenufolders"</Params>
+				<Index>25</Index>
+				<PathOriginal>"%~dp0installers\VSCodeSetup.exe"</PathOriginal>
+				<IndexOriginal>15</IndexOriginal>
+				<ParamsOriginal>/verysilent /mergetasks="!runcode,addtopath,addcontextmenufiles,addcontextmenufolders"</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\pspad.exe"</Path>
+				<Params>/VERYSILENT /NORESTART /TASKS="contextmenu,icons,txt"</Params>
+				<Index>26</Index>
+				<PathOriginal>"%~dp0installers\pspad.exe"</PathOriginal>
+				<IndexOriginal>16</IndexOriginal>
+				<ParamsOriginal>/VERYSILENT /NORESTART /TASKS="contextmenu,icons,txt"</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\stduviewer.exe"</Path>
+				<Params>/VERYSILENT /NORESTART /TASKS="fileassoc"</Params>
+				<Index>27</Index>
+				<PathOriginal>"%~dp0installers\stduviewer.exe"</PathOriginal>
+				<IndexOriginal>17</IndexOriginal>
+				<ParamsOriginal>/VERYSILENT /NORESTART /TASKS="fileassoc"</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\audacity.exe"</Path>
+				<Params>/VERYSILENT /LANG=cs /TASKS="!desktopicon" /NORESTART</Params>
+				<Index>28</Index>
+				<PathOriginal>"%~dp0installers\audacity.exe"</PathOriginal>
+				<IndexOriginal>18</IndexOriginal>
+				<ParamsOriginal>/VERYSILENT /LANG=cs /TASKS="!desktopicon" /NORESTART</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>msiexec</Path>
+				<Params>/i "%~dp0installers\googlechrome.msi" /qn</Params>
+				<Index>29</Index>
+				<PathOriginal>msiexec</PathOriginal>
+				<IndexOriginal>19</IndexOriginal>
+				<ParamsOriginal>/i "%~dp0installers\googlechrome.msi" /qn</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\gimp.exe"</Path>
+				<Params>/VERYSILENT /NORESTART /LANG=cs /MERGETASKS="!desktopicon,associations"</Params>
+				<Index>30</Index>
+				<PathOriginal>"%~dp0installers\gimp.exe"</PathOriginal>
+				<IndexOriginal>20</IndexOriginal>
+				<ParamsOriginal>/VERYSILENT /NORESTART /LANG=cs /MERGETASKS="!desktopicon,associations"</ParamsOriginal>
+			</Item>
+			<Item type="19">
+				<Path>msiexec</Path>
+				<Params>/i "%~dp0installers\inkscape.msi" /qn ADDLOCAL=ALL LAUNCHCHECK=0</Params>
+				<Index>31</Index>
+				<PathOriginal>msiexec</PathOriginal>
+				<IndexOriginal>21</IndexOriginal>
+				<ParamsOriginal>/i "%~dp0installers\inkscape.msi" /qn ADDLOCAL=ALL LAUNCHCHECK=0</ParamsOriginal>
+			</Item>
+		</Change>
+		<Add>
+			<Item type="19">
+				<Path>C:\Windows\Setup\Scripts\OfficeSetup\setup.exe /configure C:\Windows\Setup\Scripts\OfficeSetup\configuration.xml</Path>
+				<Params></Params>
+				<Index>0</Index>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\7z.exe" /S</Path>
+				<Params></Params>
+				<Index>1</Index>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\python.exe" /quiet InstallAllUsers=1 PrependPath=1 Include_test=0</Path>
+				<Params></Params>
+				<Index>2</Index>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\VSCodeSetup.exe" /verysilent /mergetasks="!runcode,addtopath,addcontextmenufiles,addcontextmenufolders"</Path>
+				<Params></Params>
+				<Index>3</Index>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\pspad.exe" /VERYSILENT /NORESTART /TASKS="contextmenu,icons,txt"</Path>
+				<Params></Params>
+				<Index>4</Index>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\stduviewer.exe" /VERYSILENT /NORESTART /TASKS="fileassoc"</Path>
+				<Params></Params>
+				<Index>5</Index>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\audacity.exe" /VERYSILENT /LANG=cs /TASKS="!desktopicon" /NORESTART</Path>
+				<Params></Params>
+				<Index>6</Index>
+			</Item>
+			<Item type="19">
+				<Path>msiexec /i "%~dp0installers\googlechrome.msi" /qn</Path>
+				<Params></Params>
+				<Index>7</Index>
+			</Item>
+			<Item type="19">
+				<Path>"%~dp0installers\gimp.exe" /VERYSILENT /NORESTART /LANG=cs /MERGETASKS="!desktopicon,associations"</Path>
+				<Params></Params>
+				<Index>8</Index>
+			</Item>
+			<Item type="19">
+				<Path>msiexec /i "%~dp0installers\inkscape.msi" /qn ADDLOCAL=ALL LAUNCHCHECK=0</Path>
+				<Params></Params>
+				<Index>9</Index>
+			</Item>
+		</Add>
+	</Execution>
+	<Registry>
+		<File>C:\NTLite_Install\assets\nastaveni-pc-ucebna.reg</File>
+	</Registry>
+</Preset>
