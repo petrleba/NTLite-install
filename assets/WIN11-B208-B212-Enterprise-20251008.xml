@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Preset isAutoSaved="false" xmlns="urn:schemas-nliteos-com:pn.v1">
+	<Date>10/08/2025 21:00:27</Date>
+	<AppInfo>
+		<Version>2025.10.10631</Version>
+		<Licensed>Yes</Licensed>
+		<Protections>Yes</Protections>
+		<Host>Windows 11 Professional 24H2 x64 - 10.0.26100.6584 (cs-CZ)</Host>
+	</AppInfo>
+	<ImageInfo>
+		<Version mode="offline">Windows 11 Enterprise 24H2 x64 - 10.0.26100.4946 (cs-CZ)</Version>
+		<GUID>{42F575F4-77EE-4947-BE63-8378E82F00D1}</GUID>
+	</ImageInfo>
+	<RemoveComponents AppRemovalMode="DISM"></RemoveComponents>
+	<Compatibility>
+		<ComponentFeatures>
+			<Feature enabled="no">Battle.net</Feature>
+			<Feature enabled="yes">Docker</Feature>
+			<Feature enabled="no">EAC</Feature>
+			<Feature enabled="yes">Hyper-V</Feature>
+			<Feature enabled="yes">SafeMode</Feature>
+			<Feature enabled="yes">VSS</Feature>
+			<Feature enabled="yes">RDPServer</Feature>
+			<Feature enabled="yes">SnippingTool</Feature>
+			<Feature enabled="yes">NetworkDiscovery</Feature>
+		</ComponentFeatures>
+		<MachineDrivers></MachineDrivers>
+	</Compatibility>
+	<Features>
+		<Feature name="WAS-NetFxEnvironment">true</Feature>
+		<Feature name="NetFX3~~~~">true</Feature>
+		<Feature name="WAS-ConfigurationAPI">true</Feature>
+		<Feature name="DirectPlay">true</Feature>
+		<Feature name="HostGuardian">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Management-Clients">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Hypervisor">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Tools-All">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Management-PowerShell">true</Feature>
+		<Feature name="Microsoft-Hyper-V">true</Feature>
+		<Feature name="Microsoft-Hyper-V-Services">true</Feature>
+		<Feature name="Microsoft-Hyper-V-All">true</Feature>
+		<Feature name="HyperV-Guest-KernelInt">true</Feature>
+		<Feature name="LegacyComponents">true</Feature>
+		<Feature name="MultiPoint-Connector-Services">true</Feature>
+		<Feature name="MultiPoint-Connector">true</Feature>
+		<Feature name="MultiPoint-Tools">true</Feature>
+		<Feature name="WAS-ProcessModel">true</Feature>
+		<Feature name="HypervisorPlatform">true</Feature>
+		<Feature name="WAS-WindowsActivationService">true</Feature>
+		<Feature name="Containers-DisposableClientVM">true</Feature>
+		<Feature name="Microsoft-Windows-Subsystem-Linux">true</Feature>
+		<Feature name="TIFFIFilter">true</Feature>
+	</Features>
+	<Packages>
+		<Options>
+			<CleanHotfixedLeftovers>1</CleanHotfixedLeftovers>
+			<UpdateBootManager>true</UpdateBootManager>
+		</Options>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5064097-x64_28d59d08562e574b336ca9523f6e2e0fc965687e.cab</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5065426-x64_32b5f85e0f4f08e5d6eabec6586014a02d3b6224.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5068221-x64_99f1d28d2ad67768689819e500449f633ee7d8b9.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5054156-x64_a0c1638cbcf4cf33dbe9a5bef69db374b4786974.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\updateplatform.amd64fre_f8a29be6e414a6d1a3b9eb11fe77f6d64e43395b.exe</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\mpam-fe.exe</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5064401-x64-ndp481_03d42dc42df2db6f1812c2fa3d768780c079a843.msu</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\windows11.0-kb5066990-x64_f3735c81e09f4bb4499b08d498d6ef56788ce1e8.cab</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\Microsoft.UI.Xaml.2.8_8.2501.31001.0_x64.appx</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\Microsoft.WSL_2.5.10.0_x64_ARM64.msixbundle</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle</File>
+		<File>C:\Program Files\NTLite\Cache\Updates\11.24H2.x64\Microsoft.WindowsTerminal_1.23.12681.0_8wekyb3d8bbwe.msixbundle</File>
+	</Packages>
+	<Drivers>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\AlderLakeDmaSecExtension.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\AlderLakePCH-NDmaSecExtension.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\AlderLakePCH-NSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\AlderLakePCH-NSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\AlderLakePCH-PDmaSecExtension.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\AlderLakePCH-PSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\AlderLakePCH-PSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\AlderLakePCH-PSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\AlderLakePCH-SSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\AlderLakePCH-SSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\AlderLakePCH-SSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\AlderLakeSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\AlderLakeSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\ApolloLakeSDHost.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\ApolloLakeSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CannonLake-HSDHost.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CannonLake-HSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CannonLake-HSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CannonLake-HSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CannonLake-HSystemThermal.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CannonLake-LPSDHost.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CannonLake-LPSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CannonLake-LPSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CannonLake-LPSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CannonLake-LPSystemThermal.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CoffeelakeSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CometLakePCH-HSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CometLakePCH-HSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CometLakePCH-HSystemThermal.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CometLakePCH-LPDmaSecExtension.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CometLakePCH-LPSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CometLakePCH-LPSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CometLakePCH-LPSystemThermal.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CometLakePCH-VSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CometLakePCH-VSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CometLakePCH-VSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CometLakePCH-VSystemThermal.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\CometLakeSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Management_service\16299\Drivers\INF\JHI\DAL.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\ElkhartLakeSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\ElkhartLakeSystemGMM.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\ElkhartLakeSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\EmmitsburgSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\EmmitsburgSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\GeminilakeSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\GeminilakeSystemGMM.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\GeminilakeSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\GeminilakeSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\GraniteRapidsSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\GSCAuxDriver.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\gscheci.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Management_service\16299\Drivers\INF\MEI\win10\heci.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\IceLakePCH-LPSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\IceLakePCH-LPSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\IceLakePCH-LPSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\IceLakePCH-NSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\IceLakePCH-NSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\IceLakeSystemThermal.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\IceLakeUSBFunctionController.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Management_service\16299\Drivers\INF\ICLS\iclsClient.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\JasperLake+System.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\JasperLake+SystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\JasperLakePCH-NSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\JasperLakePCH-NSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\JasperLakePCH-NSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\KabyLakePCH-HSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\KabyLakePCH-HSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\KabyLakePCH-HSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\KabyLakePCH-HSystemThermal.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\KabylakeSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\KabylakeSystemGMM.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\LakeFieldSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\LakeFieldSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\LakeFieldSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\LunarLakeSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\memcntrl.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\MeteorLakePCH-SSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\MeteorLakeSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\MeteorLakeSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Management_service\16299\Drivers\INF\WMIProvider\MEWMIProv.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Wifi\Netwtw08.INF</File>
+		<File>C:\NTLite_Install\assets\drivers\Wifi\Netwtw6e.INF</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\RaptorLakePCH-SSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\RaptorLakeSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\RocketLakeSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\SapphireRapidsSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\Server_CommonSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\Server_CommonSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\SkylakeSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\SkylakeSystemGMM.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\SkylakeSystemThermal.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\SunrisePoint-HSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\SunrisePoint-HSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\SunrisePoint-HSystemThermal.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\SunrisePoint-LPSDHost.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\SunrisePoint-LPSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\SunrisePoint-LPSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\SunrisePoint-LPSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\SunrisePoint-LPSystemThermal.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\TigerlakeDmaSecExtension.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\TigerLakePCH-HDmaSecExtension.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\TigerLakePCH-HSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\TigerLakePCH-HSystemISH.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\TigerLakePCH-HSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\TigerLakePCH-HSystemNorthpeak.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\TigerLakePCH-HSystemThermal.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\TigerlakePCH-LPDmaSecExtension.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\TigerlakePCH-LPSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\TigerlakePCH-LPSystemLPSS.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\TigerlakePCH-LPUSBFunctionController.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Chipset\TigerlakeSystem.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\CtaChildDriver\CtaChildDriver.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\cui_dch.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\HdBusExt.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\igcc_dch.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\iigd_dch.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\iigd_ext.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\I2CDriver\Intel_NF_I2C_Child.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\MiniCtaDriver\MiniCtaDriver.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\MSHdaDac.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\PmtChildDriver\PmtChildDriver.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\DisplayAudio\11.2\IntcDAud.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\Graphics\DisplayAudio\12.1\IntcDAud.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\PCIe_Ethernet\Legacy\Windows\WIN11\CX\64\rt25cx21x64.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\PCIe_Ethernet\Legacy\Windows\WIN11\CX\64\rt25dcx21x64.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\PCIe_Ethernet\22000\Drivers\64\rt26cx21x64.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\PCIe_Ethernet\10240\Drivers\64\rt640x64_w10.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\PCIe_Ethernet\22000\Drivers\64\rt68cx21x64.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\PCIe_Ethernet\22000\Drivers\64\rt68dcx21x64.inf</File>
+		<File>C:\NTLite_Install\assets\drivers\PCIe_Ethernet\22000\Drivers\64\rtots640x64.inf</File>
+	</Drivers>
+	<Unattended mode="1">
+		<SaveBothArch>true</SaveBothArch>
+		<settings pass="oobeSystem">
+			<component name="Microsoft-Windows-Deployment">
+				<Reseal>
+					<Mode>OOBE</Mode>
+				</Reseal>
+			</component>
+			<component name="Microsoft-Windows-International-Core">
+				<InputLocale>0405:00000405;0409:00000409</InputLocale>
+				<SystemLocale>cs-CZ</SystemLocale>
+				<UILanguage>cs-CZ</UILanguage>
+				<UILanguageFallback>cs-CZ</UILanguageFallback>
+				<UserLocale>cs-CZ</UserLocale>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<TimeZone>Střední Evropa (běžný čas)</TimeZone>
+				<OOBE>
+					<HideEULAPage>true</HideEULAPage>
+					<HideLocalAccountScreen>true</HideLocalAccountScreen>
+					<HideOnlineAccountScreens>true</HideOnlineAccountScreens>
+					<HideWirelessSetupInOOBE>true</HideWirelessSetupInOOBE>
+					<NetworkLocation>Work</NetworkLocation>
+					<ProtectYourPC>3</ProtectYourPC>
+					<SkipMachineOOBE>true</SkipMachineOOBE>
+					<SkipUserOOBE>true</SkipUserOOBE>
+				</OOBE>
+				<UserAccounts>
+					<LocalAccounts>
+						<LocalAccount>
+							<DisplayName>Local admin</DisplayName>
+							<Group>Administrators</Group>
+							<Name>admin</Name>
+							<Password>
+								<PlainText>false</PlainText>
+								<Value>dABKAHQAUwBtAE4AcAAxADAAMAAuAFAAYQBzAHMAdwBvAHIAZAA=</Value>
+							</Password>
+						</LocalAccount>
+						<LocalAccount>
+							<DisplayName>ECDL testy</DisplayName>
+							<Group>Administrators</Group>
+							<Name>ecdl</Name>
+							<Password>
+								<PlainText>false</PlainText>
+								<Value>ZQBjAGQAZQBlAGwANwAuAFAAYQBzAHMAdwBvAHIAZAA=</Value>
+							</Password>
+						</LocalAccount>
+						<LocalAccount>
+							<DisplayName>Student</DisplayName>
+							<Group>Users</Group>
+							<Name>student</Name>
+							<Password>
+								<PlainText>true</PlainText>
+								<Value></Value>
+							</Password>
+						</LocalAccount>
+					</LocalAccounts>
+				</UserAccounts>
+			</component>
+		</settings>
+		<settings pass="specialize">
+			<component name="Microsoft-Windows-Security-SPP-UX">
+				<SkipAutoActivation>true</SkipAutoActivation>
+			</component>
+			<component name="Microsoft-Windows-Shell-Setup">
+				<ComputerName>*</ComputerName>
+				<ProductKey>92TG2-N6TBB-Q4HQP-CF76Q-T6PJR</ProductKey>
+				<RegisteredOrganization>Střední odborné učiliště elektrotechnické Plzeň</RegisteredOrganization>
+				<RegisteredOwner>Střední odborné učiliště elektrotechnické Plzeň</RegisteredOwner>
+			</component>
+		</settings>
+		<settings pass="windowsPE">
+			<component name="Microsoft-Windows-International-Core-WinPE">
+				<InputLocale>0405:00000405;0409:00000409</InputLocale>
+				<SystemLocale>cs-CZ</SystemLocale>
+				<UILanguage>cs-CZ</UILanguage>
+				<UILanguageFallback>cs-CZ</UILanguageFallback>
+				<UserLocale>cs-CZ</UserLocale>
+				<SetupUILanguage>
+					<UILanguage>cs-CZ</UILanguage>
+				</SetupUILanguage>
+			</component>
+			<component name="Microsoft-Windows-Setup">
+				<Diagnostics>
+					<OptIn>false</OptIn>
+				</Diagnostics>
+				<DiskConfiguration>
+					<WillShowUI>OnError</WillShowUI>
+					<Disk>
+						<DiskID>0</DiskID>
+						<GPTDisk>true</GPTDisk>
+						<WillWipeDisk>true</WillWipeDisk>
+						<CreatePartitions>
+							<CreatePartition>
+								<Order>1</Order>
+								<Size>260</Size>
+								<Type>EFI</Type>
+							</CreatePartition>
+							<CreatePartition>
+								<Order>2</Order>
+								<Size>16</Size>
+								<Type>MSR</Type>
+							</CreatePartition>
+							<CreatePartition>
+								<Order>3</Order>
+								<Size>150000</Size>
+								<Type>Primary</Type>
+							</CreatePartition>
+							<CreatePartition>
+								<Order>4</Order>
+								<Size>700</Size>
+								<Type>Primary</Type>
+							</CreatePartition>
+							<CreatePartition>
+								<Extend>true</Extend>
+								<Order>5</Order>
+								<Type>Primary</Type>
+							</CreatePartition>
+						</CreatePartitions>
+						<ModifyPartitions>
+							<ModifyPartition>
+								<Format>FAT32</Format>
+								<Order>1</Order>
+								<PartitionID>1</PartitionID>
+							</ModifyPartition>
+							<ModifyPartition>
+								<Order>2</Order>
+								<PartitionID>2</PartitionID>
+							</ModifyPartition>
+							<ModifyPartition>
+								<Format>NTFS</Format>
+								<InstallTo>true</InstallTo>
+								<Label>SYSTEM</Label>
+								<Order>3</Order>
+								<PartitionID>3</PartitionID>
+							</ModifyPartition>
+							<ModifyPartition>
+								<Format>NTFS</Format>
+								<Order>4</Order>
+								<PartitionID>4</PartitionID>
+								<TypeID>de94bba4-06d1-4d40-a16a-bfd50179d6ac</TypeID>
+							</ModifyPartition>
+							<ModifyPartition>
+								<Format>NTFS</Format>
+								<Label>DATA</Label>
+								<Order>5</Order>
+								<PartitionID>5</PartitionID>
+							</ModifyPartition>
+						</ModifyPartitions>
+					</Disk>
+				</DiskConfiguration>
+				<DynamicUpdate>
+					<Enable>false</Enable>
+					<WillShowUI>OnError</WillShowUI>
+				</DynamicUpdate>
+				<ImageInstall>
+					<OSImage>
+						<InstallTo>
+							<DiskID>0</DiskID>
+							<PartitionID>3</PartitionID>
+						</InstallTo>
+					</OSImage>
+				</ImageInstall>
+				<UserData>
+					<AcceptEula>true</AcceptEula>
+					<FullName>SOUE Plzen</FullName>
+					<ProductKey>
+						<Key>92TG2-N6TBB-Q4HQP-CF76Q-T6PJR</Key>
+					</ProductKey>
+				</UserData>
+			</component>
+		</settings>
+	</Unattended>
+	<Tweaks>
+		<Settings>
+			<TweakGroup name="System">
+				<Tweak name="BitLocker\PreventDeviceEncryption">1</Tweak>
+			</TweakGroup>
+		</Settings>
+		<Services>
+			<TweakGroup name="services">
+				<Tweak name="BDESVC\BDESVC">4</Tweak>
+			</TweakGroup>
+		</Services>
+	</Tweaks>
+	<ApplyOptions>
+		<ImageTasks>
+			<Task>imageSaveTrim</Task>
+			<Task>imageFormatWim</Task>
+			<Task>updates_Winre.wim_01__64</Task>
+			<Task>imageOptionsCreateIso</Task>
+		</ImageTasks>
+		<AutoIsoFile>C:\NTLite_Install\Windows11Ent_Soft.iso</AutoIsoFile>
+		<AutoIsoLabel>Windows11Ent_Soft</AutoIsoLabel>
+	</ApplyOptions>
+	<Registry>
+		<File>C:\NTLite_Install\assets\nastaveni-pc-ucebna.reg</File>
+		<PowerScheme type="3" guid="8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c" activate="true"></PowerScheme>
+	</Registry>
+</Preset>
